@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         remoteConfiguration.checkRemoteConfig(internetHandler.isInternetConnected) {
             // Completion Listener
-            showToast(this, "Fetched Successfully")
+            val response = "Fetched"
+            binding.tvTitleMain.text = response
+            showToast(this, response)
         }
     }
 }
