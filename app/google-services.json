@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774747524669",
+    "project_id": "remote-configuration-template",
+    "storage_bucket": "remote-configuration-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774747524669:android:2659b8df292f6d0039a454",
+        "android_client_info": {
+          "package_name": "dev.epegasus.remoteconfigurationtemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774747524669-8mtmr4nf4ee4612rer2oh4q6jkvbogo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbS_kD4UxkZ6074d3WP2qRj9HJoyjFheA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774747524669-8mtmr4nf4ee4612rer2oh4q6jkvbogo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
