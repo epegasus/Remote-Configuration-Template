@@ -36,9 +36,9 @@ class RemoteConfiguration(private val context: Context) {
 
         // Save this value anywhere
         val value = remoteConfig[dummyValue].asLong().toInt()
-        showRemoteConfigLog(context, "updateRemoteValues", "RemoteConfigUtil", "INTER_SPLASH: $value")
+        showRemoteConfigLog(context, "updateRemoteValues", "dummyValue", "$value")
 
-        showLog(context, "updateRemoteValues", "RemoteConfigUtil", "Fetched Successfully")
+        showLog(context, "updateRemoteValues", "Completion", "Fetched Successfully")
         callback.invoke()
     }
 }
